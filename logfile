@@ -1,0 +1,56 @@
+2022-10-27 23:46:52.476 EEST [15554] LOG:  starting PostgreSQL 15.0 (Homebrew) on aarch64-apple-darwin21.6.0, compiled by Apple clang version 14.0.0 (clang-1400.0.29.102), 64-bit
+2022-10-27 23:46:52.480 EEST [15554] LOG:  could not bind IPv6 address "::1": Address already in use
+2022-10-27 23:46:52.480 EEST [15554] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2022-10-27 23:46:52.480 EEST [15554] LOG:  could not bind IPv4 address "127.0.0.1": Address already in use
+2022-10-27 23:46:52.480 EEST [15554] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2022-10-27 23:46:52.480 EEST [15554] WARNING:  could not create listen socket for "localhost"
+2022-10-27 23:46:52.480 EEST [15554] FATAL:  could not create any TCP/IP sockets
+2022-10-27 23:46:52.480 EEST [15554] LOG:  database system is shut down
+2022-10-27 23:48:01.308 EEST [15588] LOG:  starting PostgreSQL 15.0 (Homebrew) on aarch64-apple-darwin21.6.0, compiled by Apple clang version 14.0.0 (clang-1400.0.29.102), 64-bit
+2022-10-27 23:48:01.310 EEST [15588] LOG:  could not bind IPv6 address "::1": Address already in use
+2022-10-27 23:48:01.310 EEST [15588] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2022-10-27 23:48:01.310 EEST [15588] LOG:  could not bind IPv4 address "127.0.0.1": Address already in use
+2022-10-27 23:48:01.310 EEST [15588] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2022-10-27 23:48:01.310 EEST [15588] WARNING:  could not create listen socket for "localhost"
+2022-10-27 23:48:01.310 EEST [15588] FATAL:  could not create any TCP/IP sockets
+2022-10-27 23:48:01.310 EEST [15588] LOG:  database system is shut down
+2022-10-28 00:49:35.632 EEST [20726] LOG:  starting PostgreSQL 14.5 (Homebrew) on aarch64-apple-darwin21.6.0, compiled by Apple clang version 14.0.0 (clang-1400.0.29.102), 64-bit
+2022-10-28 00:49:35.633 EEST [20726] LOG:  could not bind IPv6 address "::1": Address already in use
+2022-10-28 00:49:35.633 EEST [20726] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2022-10-28 00:49:35.633 EEST [20726] LOG:  could not bind IPv4 address "127.0.0.1": Address already in use
+2022-10-28 00:49:35.633 EEST [20726] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2022-10-28 00:49:35.633 EEST [20726] WARNING:  could not create listen socket for "localhost"
+2022-10-28 00:49:35.633 EEST [20726] FATAL:  could not create any TCP/IP sockets
+2022-10-28 00:49:35.634 EEST [20726] LOG:  database system is shut down
+2022-10-28 00:53:17.456 EEST [20932] LOG:  starting PostgreSQL 14.5 (Homebrew) on aarch64-apple-darwin21.6.0, compiled by Apple clang version 14.0.0 (clang-1400.0.29.102), 64-bit
+2022-10-28 00:53:17.458 EEST [20932] LOG:  could not bind IPv6 address "::1": Address already in use
+2022-10-28 00:53:17.458 EEST [20932] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2022-10-28 00:53:17.458 EEST [20932] LOG:  could not bind IPv4 address "127.0.0.1": Address already in use
+2022-10-28 00:53:17.458 EEST [20932] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2022-10-28 00:53:17.458 EEST [20932] WARNING:  could not create listen socket for "localhost"
+2022-10-28 00:53:17.458 EEST [20932] FATAL:  could not create any TCP/IP sockets
+2022-10-28 00:53:17.458 EEST [20932] LOG:  database system is shut down
+2022-10-28 00:55:22.336 EEST [21034] LOG:  starting PostgreSQL 14.5 (Homebrew) on aarch64-apple-darwin21.6.0, compiled by Apple clang version 14.0.0 (clang-1400.0.29.102), 64-bit
+2022-10-28 00:55:22.338 EEST [21034] LOG:  could not bind IPv6 address "::1": Address already in use
+2022-10-28 00:55:22.338 EEST [21034] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2022-10-28 00:55:22.338 EEST [21034] LOG:  could not bind IPv4 address "127.0.0.1": Address already in use
+2022-10-28 00:55:22.338 EEST [21034] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2022-10-28 00:55:22.338 EEST [21034] WARNING:  could not create listen socket for "localhost"
+2022-10-28 00:55:22.338 EEST [21034] FATAL:  could not create any TCP/IP sockets
+2022-10-28 00:55:22.338 EEST [21034] LOG:  database system is shut down
+2022-10-28 00:56:33.447 EEST [21062] LOG:  starting PostgreSQL 14.5 (Homebrew) on aarch64-apple-darwin21.6.0, compiled by Apple clang version 14.0.0 (clang-1400.0.29.102), 64-bit
+2022-10-28 00:56:33.448 EEST [21062] LOG:  could not bind IPv6 address "::1": Address already in use
+2022-10-28 00:56:33.448 EEST [21062] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2022-10-28 00:56:33.448 EEST [21062] LOG:  could not bind IPv4 address "127.0.0.1": Address already in use
+2022-10-28 00:56:33.448 EEST [21062] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2022-10-28 00:56:33.448 EEST [21062] WARNING:  could not create listen socket for "localhost"
+2022-10-28 00:56:33.448 EEST [21062] FATAL:  could not create any TCP/IP sockets
+2022-10-28 00:56:33.448 EEST [21062] LOG:  database system is shut down
+2022-10-28 00:59:20.970 EEST [22409] LOG:  starting PostgreSQL 14.5 (Homebrew) on aarch64-apple-darwin21.6.0, compiled by Apple clang version 14.0.0 (clang-1400.0.29.102), 64-bit
+2022-10-28 00:59:20.971 EEST [22409] LOG:  could not bind IPv6 address "::1": Address already in use
+2022-10-28 00:59:20.971 EEST [22409] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2022-10-28 00:59:20.971 EEST [22409] LOG:  could not bind IPv4 address "127.0.0.1": Address already in use
+2022-10-28 00:59:20.971 EEST [22409] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2022-10-28 00:59:20.971 EEST [22409] WARNING:  could not create listen socket for "localhost"
+2022-10-28 00:59:20.971 EEST [22409] FATAL:  could not create any TCP/IP sockets
+2022-10-28 00:59:20.972 EEST [22409] LOG:  database system is shut down
