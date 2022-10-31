@@ -5,7 +5,9 @@
   "main": "server.js",
   "scripts": {
     "dev": "nodemon server.js",
-    "db:init": "sqlite3 ./database/database.db < ./database/schema.sql"
+    "db:init": "sqlite3 ./database/database.db < ./database/schema.sql",
+    "lint:fix": "./node_modules/.bin/eslint . --fix",
+    "lint": "./node_modules/.bin/eslint ."
   },
   "keywords": [
     "Todo",
@@ -19,6 +21,7 @@
     "@babel/core": "^7.19.6",
     "@babel/node": "^7.19.1",
     "@babel/preset-env": "^7.19.4",
+    "@graphql-tools/merge": "^8.3.7",
     "@graphql-tools/schema": "^9.0.4",
     "bcrypt": "^5.1.0",
     "body-parser": "^1.20.1",
@@ -32,6 +35,9 @@
     "sqlite3": "^5.1.2"
   },
   "devDependencies": {
+    "eslint": "^8.26.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
     "nodemon": "^2.0.20"
   },
   "type": "module"

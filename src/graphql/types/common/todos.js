@@ -36,4 +36,4 @@ export default `
     removeTodo(input: RemoveTodoInput): Boolean
     changeTodoStatus(input: ChangeTodoStatusInput): Todo
   }
-`
+`;

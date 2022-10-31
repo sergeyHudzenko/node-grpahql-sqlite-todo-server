@@ -29,18 +29,17 @@ export default `
     users: [UserWithoutPassword]
   }
 
-  type Query {
-    getUser(id: ID!): UserWithoutPassword
-    getAllUsers: Users
-  }
-
   type UserWithToken {
     userId: ID!,
     token: String!
+  }
+
+  type Query {
+    _empty: String  
   }
   
   type Mutation {
     addUser(input: UserInputForAdding): User
     login (input: UserInputForLogin): UserWithToken
   }
-`
+`;
