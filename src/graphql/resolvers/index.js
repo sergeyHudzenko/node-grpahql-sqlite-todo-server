@@ -1,15 +1,22 @@
-import todos from "./todos.js";
-import users from "./users.js";
+import todos from './todos.js';
+import users from './users.js';
 
-// console.log({...users})
+const authResolver = {
+  Mutation: {
+    ...users.MUTATIONS,
+  },
+};
+
+const commonResolver = {
+  Query: {
+    ...users.QUERIES,
+    ...todos.QUERIES,
+  },
+  Mutation: {
+    ...todos.MUTATIONS,
+  },
+};
 export default {
-    Query: {
-        ...users.QUERIES,
-        ...todos.QUERIES
-    },
-
-    Mutation: {
-        ...users.MUTATIONS,
-        ...todos.MUTATIONS
-    }
-}
+  authResolver,
+  commonResolver,
+};
